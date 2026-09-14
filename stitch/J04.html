@@ -1,0 +1,233 @@
+<!DOCTYPE html>
+
+<html lang="zh-CN"><head><meta charset="utf-8"/><meta content="width=device-width, initial-scale=1.0, viewport-fit=cover" name="viewport"/><link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans,+PingFang+SC,+-apple-system,+sans-serif:wght@100..900&display=swap" rel="stylesheet"/><style>@layer base{html,body{width:100%;margin:0;padding:0;}body{overscroll-behavior:none;-webkit-tap-highlight-color:transparent;}.pb-safe{padding-bottom:env(safe-area-inset-bottom,0px);}.pt-safe{padding-top:env(safe-area-inset-top,0px);}main>:first-child{margin-top:0!important;}main>:last-child{margin-bottom:0!important;}}::-webkit-scrollbar{display:none;}</style><script src="https://cdn.tailwindcss.com"></script><script id="tailwind-config">tailwind.config = { darkMode: "class", theme: { extend: { "colors": { "tertiary-container": "#9f6400", "on-tertiary-fixed-variant": "#653e00", "background": "#f9f9ff", "primary-container": "#087f73", "primary": "#00645a", "secondary-container": "#5bb8fe", "on-tertiary": "#ffffff", "on-tertiary-container": "#fff5ed", "on-secondary-container": "#00476e", "tertiary-fixed": "#ffddb8", "tertiary": "#7d4e00", "on-primary": "#ffffff", "on-surface": "#121c2a", "on-secondary-fixed": "#001d31", "on-background": "#121c2a", "primary-fixed": "#95f3e4", "on-error": "#ffffff", "surface-container-lowest": "#ffffff", "surface-container": "#e6eeff", "secondary-fixed-dim": "#93ccff", "on-secondary": "#ffffff", "primary-fixed-dim": "#78d7c8", "surface-container-high": "#dee9fd", "surface-container-low": "#eff3ff", "inverse-primary": "#78d7c8", "on-primary-container": "#d6fff7", "on-primary-fixed": "#00201c", "on-tertiary-fixed": "#2a1700", "error": "#ba1a1a", "surface-tint": "#006a60", "outline-variant": "#bdc9c6", "outline": "#6e7977", "surface-container-highest": "#d9e3f7", "surface-variant": "#d9e3f7", "tertiary-fixed-dim": "#ffb95f", "on-secondary-fixed-variant": "#004b73", "inverse-on-surface": "#ebf1ff", "surface-dim": "#d0daef", "error-container": "#ffdad6", "surface-bright": "#f9f9ff", "surface": "#f9f9ff", "secondary-fixed": "#cce5ff", "inverse-surface": "#273140", "on-error-container": "#93000a", "on-surface-variant": "#3e4947", "on-primary-fixed-variant": "#005048", "secondary": "#006398" }, "borderRadius": { "DEFAULT": "0.25rem", "lg": "0.5rem", "xl": "0.75rem", "full": "9999px" }, "spacing": { "space-md": "12px", "space-2xl": "24px", "height-navbar": "44px", "margin-page": "16px", "space-xl": "20px", "height-tabbar": "56px", "space-2xs": "2px", "gutter-grid": "12px", "space-lg": "16px", "space-xs": "4px", "capsule-safe-right": "96px", "space-sm": "8px", "space-3xl": "32px" }, "fontFamily": { "headline-section": ["\"Plus Jakarta Sans, PingFang SC, -apple-system, sans-serif\""], "display-stat": ["\"Plus Jakarta Sans, PingFang SC, -apple-system, sans-serif\""], "body-default": ["\"Plus Jakarta Sans, PingFang SC, -apple-system, sans-serif\""], "label-caption": ["\"Plus Jakarta Sans, PingFang SC, -apple-system, sans-serif\""], "body-medium": ["\"Plus Jakarta Sans, PingFang SC, -apple-system, sans-serif\""], "label-meta": ["\"Plus Jakarta Sans, PingFang SC, -apple-system, sans-serif\""], "title-card": ["\"Plus Jakarta Sans, PingFang SC, -apple-system, sans-serif\""], "headline-page": ["\"Plus Jakarta Sans, PingFang SC, -apple-system, sans-serif\""] }, "fontSize": { "headline-section": ["18px", { "lineHeight": "26px", "fontWeight": "600" }], "display-stat": ["26px", { "lineHeight": "32px", "fontWeight": "700" }], "body-default": ["14px", { "lineHeight": "22px", "fontWeight": "400" }], "label-caption": ["12px", { "lineHeight": "18px", "fontWeight": "500" }], "body-medium": ["14px", { "lineHeight": "22px", "fontWeight": "500" }], "label-meta": ["11px", { "lineHeight": "16px", "fontWeight": "400" }], "title-card": ["16px", { "lineHeight": "24px", "fontWeight": "600" }], "headline-page": ["20px", { "lineHeight": "28px", "fontWeight": "700" }] } } } };</script><style>
+    body {
+      min-height: max(884px, 100dvh);
+    }
+  </style>
+  </head><body class="bg-surface font-body-default text-body-default text-on-surface antialiased flex flex-col min-h-screen selection:bg-primary/20"><header class="fixed top-0 inset-x-0 z-50 bg-surface/85 backdrop-blur-xl shadow-[0_1px_8px_rgba(0,0,0,0.03)] pt-safe"><div class="h-14 flex items-center justify-between px-margin-page relative"><button aria-label="返回" class="w-11 h-11 -ml-space-xs flex items-center justify-center text-on-surface rounded-full active:scale-95 transition-transform" onclick="history.back()" type="button"><span class="material-symbols-outlined text-[24px]">arrow_back_ios_new</span></button><div class="absolute left-1/2 -translate-x-1/2 pointer-events-none text-center max-w-[180px] truncate"><h1 class="font-headline-section text-headline-section text-on-surface truncate">活动回顾</h1></div><div class="flex items-center gap-space-sm pl-capsule-safe-right"><div class="w-8 h-8 rounded-full bg-primary flex items-center justify-center"><span class="material-symbols-outlined text-on-primary text-[18px]">person</span></div></div></div></header><main class="flex-1 flex flex-col relative w-full pt-14 bg-surface pb-safe"><div class="flex flex-col w-full pb-10 space-y-space-lg">
+<!-- 1. 活动概况头图与核心信息卡片 -->
+<div class="px-margin-page pt-space-md">
+<div class="bg-surface-container-lowest rounded-xl overflow-hidden shadow-sm flex flex-col">
+<div class="relative w-full h-44 bg-surface-container-high overflow-hidden">
+<img class="w-full h-full object-cover" data-alt="A documentary style group shot of Chinese elementary students dressed in student journalist vests holding notepads and cameras, exploring a newspaper museum filled with vintage printing presses and warm wooden archives, natural sunlight through tall windows, campus green tones, bright candid educational atmosphere" src="https://lh3.googleusercontent.com/aida-public/AB6AXuABlQ0pwYZ317tp6a1t4WRS5B4ene5nrjt3esIn_wOhEdMIwGp5MB2U843TV08RdNzIHcU4EdIk1ZkKV03P-K2G4Hp4Kds7Fux5ox_Vj10lJFYyCA26TgLutINrR5ZBm897eO0CV83nFn_mVJY5RDvdLuC4b7pHfHEIIw3oKt7qoD9h6XmhUQHIaaSrNkpuvfxmu9YJJhuSBu2Wg7SPl5fA3_zBzsCzw9I0pctgUr0-IowyjcWLUI_z"/>
+<div class="absolute inset-0 bg-gradient-to-t from-black/60 via-transparent to-transparent"></div>
+<div class="absolute bottom-space-md left-space-md right-space-md flex items-center justify-between">
+<div class="flex items-center space-x-1 bg-surface-container-lowest/90 backdrop-blur-md px-2 py-0.5 rounded-full">
+<span class="w-2 h-2 rounded-full bg-primary animate-pulse"></span>
+<span class="font-label-meta text-label-meta text-primary font-semibold">采风圆满落幕</span>
+</div>
+<span class="font-label-meta text-label-meta text-white/90 bg-black/40 px-2 py-0.5 rounded-md backdrop-blur-sm">[演示数据]</span>
+</div>
+</div>
+<div class="p-space-lg flex flex-col space-y-space-md">
+<div class="flex flex-wrap gap-space-xs">
+<span class="inline-flex items-center px-2.5 py-0.5 rounded-full font-label-caption text-label-caption bg-primary-fixed text-on-primary-fixed font-semibold">
+            圆满结束
+          </span>
+<span class="inline-flex items-center px-2.5 py-0.5 rounded-full font-label-caption text-label-caption bg-surface-container text-secondary font-medium">
+            30位小记者参与
+          </span>
+<span class="inline-flex items-center px-2.5 py-0.5 rounded-full font-label-caption text-label-caption bg-tertiary-fixed text-on-tertiary-fixed font-medium">
+            产出优质稿件18篇
+          </span>
+</div>
+<h2 class="font-headline-page text-headline-page text-on-surface leading-tight">
+          【第41期采风回顾】走进贵州教育报史馆：寻找铅字背后的时代记忆
+        </h2>
+<div class="flex items-center justify-between text-outline pt-space-xs">
+<div class="flex items-center space-x-1.5">
+<span class="material-symbols-outlined text-[16px] text-primary">calendar_month</span>
+<span class="font-label-caption text-label-caption">举办时间：2025年5月10日</span>
+</div>
+<div class="flex items-center space-x-1.5">
+<span class="material-symbols-outlined text-[16px] text-secondary">location_on</span>
+<span class="font-label-caption text-label-caption">贵州教育报史馆</span>
+</div>
+</div>
+</div>
+</div>
+</div>
+<!-- 2. 精彩采风图文集锦 (Asymmetric Mosaic + Micro Narration) -->
+<div class="px-margin-page">
+<div class="bg-surface-container-lowest rounded-xl p-space-lg shadow-sm flex flex-col space-y-space-md">
+<div class="flex items-center justify-between">
+<div class="flex items-center space-x-2">
+<div class="w-1.5 h-4 rounded-full bg-primary"></div>
+<h3 class="font-title-card text-title-card text-on-surface">精彩采风纪实</h3>
+</div>
+<span class="font-label-meta text-label-meta text-outline">图文全记录</span>
+</div>
+<!-- 纪实叙事气泡 -->
+<div class="bg-surface-container-low rounded-xl p-space-md flex space-x-space-sm items-start">
+<span class="material-symbols-outlined text-primary text-[20px] shrink-0 mt-0.5">format_quote</span>
+<p class="font-body-default text-body-default text-on-surface-variant leading-relaxed">
+          5月10日上午，30名贵州在册小记者走进贵州教育报史馆，在斑驳发黄的油墨档案前，聆听老一辈新闻工作者讲述报道初心，触摸活字印刷字模，实地学习新闻采编流程。
+        </p>
+</div>
+<!-- 照片网格排版 -->
+<div class="grid grid-cols-3 gap-2">
+<div class="col-span-2 relative h-36 rounded-lg overflow-hidden group">
+<img class="w-full h-full object-cover group-active:scale-105 transition-transform duration-300" data-alt="Close-up candid of young Asian student journalist eagerly listening and taking notes on a small pad, sitting opposite an elderly veteran reporter in a warm vintage newspaper museum, soft ambient afternoon light, documentary realism" src="https://lh3.googleusercontent.com/aida-public/AB6AXuD3AHiJpLx_KPcQGXV0QGQLgjLQ_82uWmegRMT_D9cKbjDqVPJX7vnywjwYjDi7EDnQhcW2FYupKF6k_t3zaSHcvDxrrURftvf7C46KwlpkLspD_OfnRkbs0P241o4oWth9rDJ-iy5BjVx-30yUn8YwueKlTfEGuvRPhzA_O9L2AE6iWFuax0VTWdJTb_ninF0dr8l6iduN8oSyhogBLBL79JQ1QCvMnbK46PldrTDusG-cnhwKB90d"/>
+<div class="absolute bottom-1 left-1 bg-black/50 text-white font-label-meta text-label-meta px-1.5 py-0.5 rounded backdrop-blur-sm">认真访谈中</div>
+</div>
+<div class="flex flex-col gap-2">
+<div class="relative h-[68px] rounded-lg overflow-hidden">
+<img class="w-full h-full object-cover" data-alt="Delicate hands of school child gently touching cold metal moveable type blocks arranged in wooden printer trays, crisp selective focus on vintage lead typeface" src="https://lh3.googleusercontent.com/aida-public/AB6AXuAclKDs92sX1Ns8B6jEcXvrQL8zZUbBFLOtMj3I8-oeRksQSvXQcXYcSH4xu8cg_Pn4bLbjOS1gDSogchvF-ugFvPj0WZsaLQMSnhuy0m1Ao0TSjZdTWnxiAvqyAYs5oph9kYg-OywgO2sUGjNKE6Hodr0B71-lizPbhB58VIxU_aZKQlzNuxloTBXtz1Cqpn05r1y77IokaNA352FL3o-mJjnTbPUpISkDxAjlmtT8z3aveeb9tWJe"/>
+</div>
+<div class="relative h-[68px] rounded-lg overflow-hidden">
+<img class="w-full h-full object-cover" data-alt="Group of elementary school kids around an old newspaper mechanical printing press machine in educational museum, guided by museum curator" src="https://lh3.googleusercontent.com/aida-public/AB6AXuB9oOCTxXuIOw9aVhzO80EDJjdnRwdkLzZ_Pz5iAFnkTdQt-VDGPgwv6kOz7GspNNmKLaIXBsW9tdDMzFXv-HDsunswnEPFhorjexZmUiINocmLWFAJ9bu_dIkUdB1sF2BCK63VGwA6mNcVYXCCHPFEiF4m_msyZS_x25ZDTK_ngB5sktVubIIuzhbyEc5jfBn4bsIsvDqHK07R6bO7Xts9Iy1QgaSWjXYW4FB4yuKb7L9CqohJRCgZ"/>
+</div>
+</div>
+</div>
+<div class="flex items-center justify-between text-outline pt-1">
+<span class="font-label-meta text-label-meta text-outline">共拍摄归档 128 张高清掠影</span>
+<button class="text-primary font-label-caption text-label-caption font-semibold flex items-center" type="button">
+          查看全部图集 <span class="material-symbols-outlined text-[16px] ml-0.5">chevron_right</span>
+</button>
+</div>
+</div>
+</div>
+<!-- 3. 实践学时与勋章发放统计卡 (Gamified Badge & Credit) -->
+<div class="px-margin-page">
+<div class="bg-gradient-to-br from-primary-container to-primary rounded-xl p-space-lg text-on-primary shadow-sm flex flex-col space-y-space-md relative overflow-hidden">
+<div class="absolute -right-6 -bottom-6 w-28 h-28 bg-white/10 rounded-full blur-xl pointer-events-none"></div>
+<div class="flex items-center justify-between relative z-10">
+<div class="flex items-center space-x-2">
+<span class="material-symbols-outlined text-[24px] text-primary-fixed">verified</span>
+<span class="font-title-card text-title-card font-bold">综合实践认证已归档</span>
+</div>
+<span class="font-label-meta text-label-meta bg-black/20 px-2 py-0.5 rounded-full text-on-primary">
+          教育部实践标准
+        </span>
+</div>
+<div class="grid grid-cols-2 gap-space-md bg-white/10 backdrop-blur-md rounded-lg p-space-md relative z-10">
+<div class="flex flex-col">
+<span class="font-label-caption text-label-caption text-on-primary/80">本期认证学时</span>
+<div class="flex items-baseline space-x-1 mt-0.5">
+<span class="font-display-stat text-display-stat text-primary-fixed leading-none">4.0</span>
+<span class="font-label-meta text-label-meta">学时</span>
+</div>
+<span class="font-label-meta text-label-meta text-on-primary/70 mt-1">已计入学生综合素质档案</span>
+</div>
+<div class="flex flex-col border-l border-white/20 pl-space-md">
+<span class="font-label-caption text-label-caption text-on-primary/80">获得实践勋章</span>
+<div class="flex items-center space-x-1.5 mt-1">
+<div class="w-7 h-7 rounded-full bg-tertiary-fixed text-tertiary flex items-center justify-center shrink-0">
+<span class="material-symbols-outlined text-[18px]">history_edu</span>
+</div>
+<span class="font-body-medium text-body-medium font-semibold text-white truncate">时代记录者</span>
+</div>
+<span class="font-label-meta text-label-meta text-on-primary/70 mt-1">小记者勋章库已同步</span>
+</div>
+</div>
+</div>
+</div>
+<!-- 4. 优秀小记者采风成果展示区 -->
+<div class="px-margin-page flex flex-col space-y-space-md">
+<div class="flex items-center justify-between">
+<div class="flex items-center space-x-2">
+<div class="w-1.5 h-4 rounded-full bg-primary"></div>
+<h3 class="font-title-card text-title-card text-on-surface">采风优秀成果展</h3>
+</div>
+<span class="font-label-caption text-label-caption text-primary font-medium">共18篇优秀稿件入选</span>
+</div>
+<!-- 优秀作品1 -->
+<div class="bg-surface-container-lowest rounded-xl p-space-lg shadow-sm flex flex-col space-y-space-md">
+<div class="flex items-start justify-between">
+<div class="flex-1 pr-space-md">
+<div class="flex items-center space-x-1.5 mb-1">
+<span class="bg-tertiary-fixed text-on-tertiary-fixed font-label-meta text-label-meta px-1.5 py-0.5 rounded font-bold">头条精选</span>
+<span class="font-label-meta text-label-meta text-outline">推荐指数 ★★★★★</span>
+</div>
+<h4 class="font-body-medium text-body-medium font-bold text-on-surface leading-snug">
+            《一张报纸的铅字印记：走进教育报史馆现场手记》
+          </h4>
+</div>
+<div class="w-14 h-14 rounded-lg bg-surface-container-high overflow-hidden shrink-0">
+<img class="w-full h-full object-cover" data-alt="Macro artistic detail of vintage Chinese typography lead blocks with black ink residue, clean and poetic cultural visual" src="https://lh3.googleusercontent.com/aida-public/AB6AXuDCjI6mJlxNJcbwKHJVu508yjciFX68nDM81UU7UpAkJQmbxl5Y-dAf-nhaaq3YNgkXHsvmScnB6qA99w8TZguFrj-jo4AlUH8xRy0cBeup9BjaldFgNCHdvByxFPWdN5XwMce5Y_efPEW1gT3VCBUgujVcDz9Y1sAMFbYo8AgM656aUbbyHY1UuhEJHYBhyau1OOCzD3y7gkTUnlksZwvbqt5V8WcH9bJw5rp2aBiQb7UanVkTKjXw"/>
+</div>
+</div>
+<div class="flex items-center justify-between text-outline text-label-caption">
+<div class="flex items-center space-x-2">
+<span class="font-medium text-on-surface">作者：林奕辰</span>
+<span>贵阳第一实验小学 五(3)班</span>
+</div>
+</div>
+<div class="bg-surface-container-low rounded-lg p-space-sm flex flex-col space-y-1">
+<div class="flex items-center space-x-1 text-primary">
+<span class="material-symbols-outlined text-[16px]">psychology</span>
+<span class="font-label-meta text-label-meta font-semibold">名师孙老师评语</span>
+</div>
+<p class="font-label-caption text-label-caption text-on-surface-variant">
+          “以小切口见证大时代，现场细节抓取敏锐，活字印刷与数字出版的对比思考令人惊喜。”
+        </p>
+</div>
+<div class="flex items-center justify-between pt-space-xs">
+<span class="font-label-meta text-label-meta text-outline">[演示数据已授权展示]</span>
+<button class="px-space-md py-1.5 rounded-full bg-primary text-on-primary font-label-caption text-label-caption font-semibold flex items-center space-x-1 active:scale-95 transition-transform shadow-sm" type="button">
+<span>阅读作品</span>
+<span class="material-symbols-outlined text-[14px]">arrow_forward</span>
+</button>
+</div>
+</div>
+<!-- 优秀作品2 -->
+<div class="bg-surface-container-lowest rounded-xl p-space-lg shadow-sm flex flex-col space-y-space-md">
+<div class="flex items-start justify-between">
+<div class="flex-1 pr-space-md">
+<div class="flex items-center space-x-1.5 mb-1">
+<span class="bg-secondary-fixed text-on-secondary-fixed font-label-meta text-label-meta px-1.5 py-0.5 rounded font-bold">佳作推荐</span>
+</div>
+<h4 class="font-body-medium text-body-medium font-bold text-on-surface leading-snug">
+            《在油墨香里感受新闻力量》
+          </h4>
+</div>
+<div class="w-14 h-14 rounded-lg bg-surface-container-high overflow-hidden shrink-0">
+<img class="w-full h-full object-cover" data-alt="Student holding an old broadsheet educational newspaper with focused look of inspiration" src="https://lh3.googleusercontent.com/aida-public/AB6AXuDWRCg13PmEpZhrmkrEJEA4DylyNMt9VYBIWUDDXNt3MM_ULrqa4ZMGJlZUIhPFB_9kc_Aq6hs_A_SRvY9t_3uscQHCZP1z5gAtRZiSxgQxwpKPDZVePkBS00SVmwjZeUJKdZMaThQ68ecqTexk3fllHZQ7TqPbHTzfd_D426_gJcSgi9aCBxiT5W_eO2KTIFIiO7xYs6sCJM8I116XtmmHvH4Kh1WlFz_JcxhY3b-zRztcQXaIP70Z"/>
+</div>
+</div>
+<div class="flex items-center justify-between text-outline text-label-caption">
+<div class="flex items-center space-x-2">
+<span class="font-medium text-on-surface">作者：赵若琳</span>
+<span>贵阳第十七中学 初二(1)班</span>
+</div>
+</div>
+<div class="flex items-center justify-between pt-space-xs">
+<span class="font-label-caption text-label-caption text-on-surface-variant truncate max-w-[200px]">“铅字虽重，新闻的心意更重……”</span>
+<button class="px-space-md py-1.5 rounded-full bg-surface-container text-primary font-label-caption text-label-caption font-semibold flex items-center space-x-1 active:scale-95 transition-transform" type="button">
+<span>阅读作品</span>
+<span class="material-symbols-outlined text-[14px]">arrow_forward</span>
+</button>
+</div>
+</div>
+</div>
+<!-- 5. 底部操作互动区 (Engaging Sticky-Ready Bottom Group) -->
+<div class="px-margin-page pt-space-xs flex flex-col space-y-space-sm">
+<div class="grid grid-cols-2 gap-space-sm">
+<button class="h-11 rounded-xl bg-surface-container-lowest text-primary font-body-medium text-body-medium font-semibold flex items-center justify-center space-x-1.5 shadow-sm active:scale-98 transition-transform" type="button">
+<span class="material-symbols-outlined text-[20px]">military_tech</span>
+<span>我的实践收获</span>
+</button>
+<button class="h-11 rounded-xl bg-surface-container text-secondary font-body-medium text-body-medium font-semibold flex items-center justify-center space-x-1.5 shadow-sm active:scale-98 transition-transform" type="button">
+<span class="material-symbols-outlined text-[20px]">notifications_active</span>
+<span>关注下期采风</span>
+</button>
+</div>
+<button class="h-12 w-full rounded-full bg-primary text-on-primary font-headline-section text-headline-section font-semibold flex items-center justify-center space-x-2 shadow-md active:scale-98 transition-transform" id="shareBtn" type="button">
+<span class="material-symbols-outlined text-[20px]">share</span>
+<span>分享本次精彩回顾</span>
+</button>
+</div>
+</div>
+<script>
+  // 微交互：点击分享反馈
+  document.getElementById('shareBtn')?.addEventListener('click', function() {
+    const originalText = this.innerHTML;
+    this.innerHTML = '<span class="material-symbols-outlined text-[20px]">check_circle</span><span>已生成分享卡片</span>';
+    setTimeout(() => {
+      this.innerHTML = originalText;
+    }, 2000);
+  });
+</script></main><script>window.EP_PAGE="J04";</script><script src="../routes.js"></script></body></html>

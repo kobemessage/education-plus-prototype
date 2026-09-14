@@ -1,0 +1,277 @@
+<!DOCTYPE html>
+
+<html lang="zh-CN"><head><meta charset="utf-8"/><meta content="width=device-width, initial-scale=1.0, viewport-fit=cover" name="viewport"/><link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans,+PingFang+SC,+-apple-system,+sans-serif:wght@100..900&display=swap" rel="stylesheet"/><style>@layer base{html,body{width:100%;margin:0;padding:0;}body{overscroll-behavior:none;-webkit-tap-highlight-color:transparent;}.pb-safe{padding-bottom:env(safe-area-inset-bottom,0px);}.pt-safe{padding-top:env(safe-area-inset-top,0px);}main>:first-child{margin-top:0!important;}main>:last-child{margin-bottom:0!important;}}::-webkit-scrollbar{display:none;}</style><script src="https://cdn.tailwindcss.com"></script><script id="tailwind-config">tailwind.config = { darkMode: "class", theme: { extend: { "colors": { "tertiary-container": "#9f6400", "on-tertiary-fixed-variant": "#653e00", "background": "#f9f9ff", "primary-container": "#087f73", "primary": "#00645a", "secondary-container": "#5bb8fe", "on-tertiary": "#ffffff", "on-tertiary-container": "#fff5ed", "on-secondary-container": "#00476e", "tertiary-fixed": "#ffddb8", "tertiary": "#7d4e00", "on-primary": "#ffffff", "on-surface": "#121c2a", "on-secondary-fixed": "#001d31", "on-background": "#121c2a", "primary-fixed": "#95f3e4", "on-error": "#ffffff", "surface-container-lowest": "#ffffff", "surface-container": "#e6eeff", "secondary-fixed-dim": "#93ccff", "on-secondary": "#ffffff", "primary-fixed-dim": "#78d7c8", "surface-container-high": "#dee9fd", "surface-container-low": "#eff3ff", "inverse-primary": "#78d7c8", "on-primary-container": "#d6fff7", "on-primary-fixed": "#00201c", "on-tertiary-fixed": "#2a1700", "error": "#ba1a1a", "surface-tint": "#006a60", "outline-variant": "#bdc9c6", "outline": "#6e7977", "surface-container-highest": "#d9e3f7", "surface-variant": "#d9e3f7", "tertiary-fixed-dim": "#ffb95f", "on-secondary-fixed-variant": "#004b73", "inverse-on-surface": "#ebf1ff", "surface-dim": "#d0daef", "error-container": "#ffdad6", "surface-bright": "#f9f9ff", "surface": "#f9f9ff", "secondary-fixed": "#cce5ff", "inverse-surface": "#273140", "on-error-container": "#93000a", "on-surface-variant": "#3e4947", "on-primary-fixed-variant": "#005048", "secondary": "#006398" }, "borderRadius": { "DEFAULT": "0.25rem", "lg": "0.5rem", "xl": "0.75rem", "full": "9999px" }, "spacing": { "space-md": "12px", "space-2xl": "24px", "height-navbar": "44px", "margin-page": "16px", "space-xl": "20px", "height-tabbar": "56px", "space-2xs": "2px", "gutter-grid": "12px", "space-lg": "16px", "space-xs": "4px", "capsule-safe-right": "96px", "space-sm": "8px", "space-3xl": "32px" }, "fontFamily": { "headline-section": ["\"Plus Jakarta Sans, PingFang SC, -apple-system, sans-serif\""], "display-stat": ["\"Plus Jakarta Sans, PingFang SC, -apple-system, sans-serif\""], "body-default": ["\"Plus Jakarta Sans, PingFang SC, -apple-system, sans-serif\""], "label-caption": ["\"Plus Jakarta Sans, PingFang SC, -apple-system, sans-serif\""], "body-medium": ["\"Plus Jakarta Sans, PingFang SC, -apple-system, sans-serif\""], "label-meta": ["\"Plus Jakarta Sans, PingFang SC, -apple-system, sans-serif\""], "title-card": ["\"Plus Jakarta Sans, PingFang SC, -apple-system, sans-serif\""], "headline-page": ["\"Plus Jakarta Sans, PingFang SC, -apple-system, sans-serif\""] }, "fontSize": { "headline-section": ["18px", { "lineHeight": "26px", "fontWeight": "600" }], "display-stat": ["26px", { "lineHeight": "32px", "fontWeight": "700" }], "body-default": ["14px", { "lineHeight": "22px", "fontWeight": "400" }], "label-caption": ["12px", { "lineHeight": "18px", "fontWeight": "500" }], "body-medium": ["14px", { "lineHeight": "22px", "fontWeight": "500" }], "label-meta": ["11px", { "lineHeight": "16px", "fontWeight": "400" }], "title-card": ["16px", { "lineHeight": "24px", "fontWeight": "600" }], "headline-page": ["20px", { "lineHeight": "28px", "fontWeight": "700" }] } } } };</script></head><body class="bg-surface font-body-default text-body-default text-on-surface antialiased flex flex-col min-h-screen selection:bg-primary/20"><header class="fixed top-0 inset-x-0 z-50 bg-surface/85 backdrop-blur-xl shadow-[0_1px_8px_rgba(0,0,0,0.03)] pt-safe"><div class="h-14 flex items-center justify-between px-margin-page relative"><button aria-label="返回" class="w-11 h-11 -ml-space-xs flex items-center justify-center text-on-surface rounded-full active:scale-95 transition-transform" onclick="history.back()" type="button"><span class="material-symbols-outlined text-[24px]">arrow_back_ios_new</span></button><div class="absolute left-1/2 -translate-x-1/2 pointer-events-none text-center max-w-[180px] truncate"><h1 class="font-headline-section text-headline-section text-on-surface truncate">活动报名</h1></div><div class="flex items-center gap-space-sm pl-capsule-safe-right"><div class="w-8 h-8 rounded-full bg-primary flex items-center justify-center"><span class="material-symbols-outlined text-on-primary text-[18px]">person</span></div></div></div></header><main class="flex-1 flex flex-col relative w-full pt-14 bg-surface pb-safe"><div class="flex flex-col w-full px-margin-page pb-space-3xl space-y-space-md">
+<!-- Demo Data Banner -->
+<div class="flex items-center justify-between px-space-md py-space-xs bg-surface-container rounded-lg">
+<div class="flex items-center space-x-space-xs">
+<span class="material-symbols-outlined text-[16px] text-primary">verified</span>
+<span class="font-label-caption text-label-caption text-primary">小记者官方综合实践通道</span>
+</div>
+<span class="px-space-xs py-0.5 bg-surface-container-high rounded text-[10px] text-outline font-label-meta tracking-wide">[演示数据]</span>
+</div>
+<!-- Activity Brief Card -->
+<div class="bg-surface-container-lowest rounded-xl p-space-lg shadow-sm relative overflow-hidden">
+<div class="absolute -right-6 -bottom-6 w-24 h-24 rounded-full bg-primary/5 pointer-events-none"></div>
+<div class="flex items-start justify-between gap-space-sm mb-space-sm">
+<div class="flex flex-col">
+<div class="flex items-center gap-space-xs mb-space-xs">
+<span class="px-space-xs py-0.5 rounded-full bg-primary-fixed text-on-primary-fixed font-label-caption text-label-caption">自然采风</span>
+<span class="px-space-xs py-0.5 rounded-full bg-surface-container text-primary font-label-caption text-label-caption">社会实践</span>
+</div>
+<h2 class="font-title-card text-title-card text-on-surface line-clamp-2">《探访省农科院山地智慧农业实践采风》</h2>
+</div>
+</div>
+<div class="space-y-space-xs pt-space-xs bg-surface-container-low/60 rounded-lg p-space-md">
+<div class="flex items-center text-on-surface-variant font-label-caption text-label-caption">
+<span class="material-symbols-outlined text-[16px] text-primary mr-space-xs">calendar_month</span>
+<span>2025-05-24 周六 09:00 - 15:30</span>
+</div>
+<div class="flex items-center text-on-surface-variant font-label-caption text-label-caption">
+<span class="material-symbols-outlined text-[16px] text-primary mr-space-xs">location_on</span>
+<span class="truncate">省农业科学院山地科技示范区（花溪区）</span>
+</div>
+<div class="flex items-center justify-between text-on-surface-variant font-label-caption text-label-caption pt-space-xs">
+<div class="flex items-center">
+<span class="material-symbols-outlined text-[16px] text-tertiary mr-space-xs">workspace_premium</span>
+<span>录入小记者研学采风档案（记4学时）</span>
+</div>
+<span class="font-title-card text-title-card text-primary font-bold">公益免费</span>
+</div>
+</div>
+</div>
+<!-- Registration Form Section -->
+<form class="space-y-space-md" id="regForm" onsubmit="return false;">
+<!-- Student Information Card (Auto-filled) -->
+<div class="bg-surface-container-lowest rounded-xl p-space-lg shadow-sm">
+<div class="flex items-center justify-between pb-space-sm">
+<div class="flex items-center space-x-space-xs">
+<span class="w-1.5 h-4 bg-primary rounded-full"></span>
+<h3 class="font-title-card text-title-card text-on-surface">报名小记者身份</h3>
+</div>
+<span class="flex items-center text-primary font-label-meta text-label-meta bg-primary/10 px-space-xs py-0.5 rounded-full">
+<span class="material-symbols-outlined text-[14px] mr-1" style="font-variation-settings: 'FILL' 1;">check_circle</span>
+          认证在册
+        </span>
+</div>
+<div class="space-y-space-sm">
+<div class="flex items-center justify-between py-space-xs">
+<span class="font-body-default text-body-default text-on-surface-variant">学生姓名</span>
+<div class="flex items-center space-x-space-xs">
+<span class="font-body-medium text-body-medium text-on-surface">林奕辰</span>
+<span class="px-1.5 py-0.5 bg-primary-fixed text-on-primary-fixed-variant rounded text-[10px] font-label-meta">采风证</span>
+</div>
+</div>
+<div class="flex items-center justify-between py-space-xs">
+<span class="font-body-default text-body-default text-on-surface-variant">记者证号</span>
+<span class="font-body-medium text-body-medium text-on-surface tracking-wide">GZXJZ-2024-0829</span>
+</div>
+<div class="flex items-center justify-between py-space-xs">
+<span class="font-body-default text-body-default text-on-surface-variant">就读学校班级</span>
+<span class="font-body-medium text-body-medium text-on-surface">贵阳第一实验小学 五(3)班</span>
+</div>
+<div class="flex items-center justify-between py-space-xs">
+<span class="font-body-default text-body-default text-on-surface-variant">身份证件</span>
+<span class="font-body-medium text-body-medium text-on-surface font-mono">520103********1234</span>
+</div>
+</div>
+<div class="mt-space-sm pt-space-xs flex items-center text-outline font-label-meta text-label-meta">
+<span class="material-symbols-outlined text-[14px] mr-1">lock</span>
+        在籍学籍与学分系统互联，身份资料已严格脱敏保护
+      </div>
+</div>
+<!-- Guardian Information Card -->
+<div class="bg-surface-container-lowest rounded-xl p-space-lg shadow-sm space-y-space-md">
+<div class="flex items-center space-x-space-xs">
+<span class="w-1.5 h-4 bg-primary rounded-full"></span>
+<h3 class="font-title-card text-title-card text-on-surface">监护人联络与出行方式</h3>
+</div>
+<!-- Guardian Name -->
+<div class="space-y-space-xs">
+<label class="block font-body-medium text-body-medium text-on-surface">
+          监护人/家长姓名 <span class="text-error">*</span>
+</label>
+<div class="relative flex items-center">
+<span class="material-symbols-outlined absolute left-space-md text-outline text-[20px]">person</span>
+<input class="w-full h-11 pl-10 pr-space-md bg-surface-container-low rounded-lg font-body-default text-body-default text-on-surface focus:outline-none focus:bg-surface-container-lowest focus:shadow-[0_0_0_2px_#00645a] transition-all" id="parentName" placeholder="请输入家长真实姓名" required="" type="text" value="林建国"/>
+</div>
+</div>
+<!-- Guardian Phone -->
+<div class="space-y-space-xs">
+<label class="block font-body-medium text-body-medium text-on-surface">
+          监护人联系电话 <span class="text-error">*</span>
+</label>
+<div class="relative flex items-center">
+<span class="material-symbols-outlined absolute left-space-md text-outline text-[20px]">phone_android</span>
+<input class="w-full h-11 pl-10 pr-space-md bg-surface-container-low rounded-lg font-body-default text-body-default text-on-surface focus:outline-none focus:bg-surface-container-lowest focus:shadow-[0_0_0_2px_#00645a] transition-all" id="parentPhone" maxlength="11" placeholder="用于活动紧急联络及购买保险" required="" type="tel" value="13885123456"/>
+</div>
+</div>
+<!-- Emergency Contact -->
+<div class="space-y-space-xs">
+<div class="flex justify-between items-center">
+<label class="font-body-medium text-body-medium text-on-surface">紧急备用联络方式</label>
+<span class="font-label-meta text-label-meta text-outline">选填</span>
+</div>
+<div class="relative flex items-center">
+<span class="material-symbols-outlined absolute left-space-md text-outline text-[20px]">call</span>
+<input class="w-full h-11 pl-10 pr-space-md bg-surface-container-low rounded-lg font-body-default text-body-default text-on-surface focus:outline-none focus:bg-surface-container-lowest focus:shadow-[0_0_0_2px_#00645a] transition-all" id="backupPhone" placeholder="其他家庭成员手机号" type="tel"/>
+</div>
+</div>
+<!-- Bus / Transportation Choice -->
+<div class="space-y-space-xs pt-space-xs">
+<label class="block font-body-medium text-body-medium text-on-surface">
+          行程接送选择 <span class="text-error">*</span>
+</label>
+<div class="grid grid-cols-2 gap-space-sm" id="transportOptions">
+<!-- Option 1: Bus -->
+<div class="cursor-pointer p-space-md rounded-xl bg-surface-container-lowest shadow-sm flex flex-col items-center justify-center text-center space-y-1 transition-all" id="opt-bus" onclick="selectTransport('bus')">
+<div class="w-8 h-8 rounded-full bg-primary/10 flex items-center justify-center text-primary mb-1">
+<span class="material-symbols-outlined text-[20px]">directions_bus</span>
+</div>
+<span class="font-title-card text-body-medium font-semibold text-primary" id="title-bus">报社大楼集合接送</span>
+<span class="font-label-meta text-label-meta text-outline">统一大巴 08:20 发车</span>
+</div>
+<!-- Option 2: Self -->
+<div class="cursor-pointer p-space-md rounded-xl bg-surface-container-low opacity-80 flex flex-col items-center justify-center text-center space-y-1 transition-all" id="opt-self" onclick="selectTransport('self')">
+<div class="w-8 h-8 rounded-full bg-surface-variant flex items-center justify-center text-on-surface-variant mb-1">
+<span class="material-symbols-outlined text-[20px]">directions_car</span>
+</div>
+<span class="font-body-medium text-body-medium text-on-surface-variant" id="title-self">自驾前往基地</span>
+<span class="font-label-meta text-label-meta text-outline">08:50 前往大厅签到</span>
+</div>
+</div>
+<input id="transportVal" type="hidden" value="bus"/>
+</div>
+</div>
+<!-- Safety Protocol Agreement -->
+<div class="bg-surface-container-lowest rounded-xl p-space-md shadow-sm">
+<label class="flex items-start space-x-space-sm cursor-pointer select-none">
+<input checked="" class="mt-1 w-4 h-4 rounded text-primary accent-primary" id="agreementCheck" type="checkbox"/>
+<span class="font-label-caption text-label-caption text-on-surface-variant leading-relaxed">
+          我已阅读并完全同意
+          <a class="text-primary underline font-medium" href="javascript:void(0)" onclick="showModal('ruleModal')">《小记者外出研学安全守则与监护人须知》</a>
+          并承诺学生身体健康状况良好，无隐瞒重大基础病史，按时完成实践纪实采访。
+        </span>
+</label>
+</div>
+<!-- Submit CTA Area -->
+<div class="pt-space-sm">
+<button class="w-full h-12 bg-primary text-on-primary rounded-full font-title-card text-title-card shadow-md active:scale-95 transition-transform flex items-center justify-center space-x-space-xs" onclick="handleSubmit()" type="button">
+<span>确认提交报名</span>
+<span class="material-symbols-outlined text-[20px]">arrow_forward</span>
+</button>
+<p class="text-center font-label-meta text-label-meta text-outline mt-space-sm">报名提交后将即时分配活动编号与带队导师组</p>
+</div>
+</form>
+<!-- Safety Rules Modal -->
+<div class="fixed inset-0 z-50 flex items-end sm:items-center justify-center bg-black/40 backdrop-blur-sm hidden transition-opacity" id="ruleModal">
+<div class="bg-surface-container-lowest rounded-t-2xl sm:rounded-2xl w-full max-w-sm p-space-lg max-h-[80vh] flex flex-col space-y-space-md">
+<div class="flex items-center justify-between pb-space-xs">
+<h4 class="font-headline-section text-headline-section text-on-surface">安全守则与监护人须知</h4>
+<button class="text-outline active:scale-90 p-1" onclick="hideModal('ruleModal')" type="button">
+<span class="material-symbols-outlined text-[22px]">close</span>
+</button>
+</div>
+<div class="overflow-y-auto space-y-space-sm text-on-surface-variant font-body-default text-body-default pr-space-xs">
+<p class="font-medium text-on-surface">一、安全守则与纪律</p>
+<p class="font-label-caption text-label-caption leading-relaxed">1. 小记者外出采风期间须全程佩戴统一徽章并穿戴记者马甲，服从带队记者及农科院导师现场调度指挥。</p>
+<p class="font-label-caption text-label-caption leading-relaxed">2. 采风实验温室与山地实验林禁止脱离小队私自采摘、攀爬仪器架，请爱护公共农业科研资产。</p>
+<p class="font-medium text-on-surface mt-space-sm">二、监护人保障与保险</p>
+<p class="font-label-caption text-label-caption leading-relaxed">3. 活动由组织单位统一投保专属青少年研学意外伤害险。集合、解散时监护人需亲临现场签到交接。</p>
+</div>
+<button class="w-full h-10 bg-primary text-on-primary rounded-lg font-body-medium text-body-medium" onclick="hideModal('ruleModal')" type="button">
+        我已知悉
+      </button>
+</div>
+</div>
+<!-- Success Action Dialog (Emulating WeChat Mini-Program Toast / Sheet to J03) -->
+<div class="fixed inset-0 z-50 flex items-center justify-center bg-black/50 backdrop-blur-sm hidden" id="successModal">
+<div class="bg-surface-container-lowest rounded-2xl w-[86%] max-w-xs p-space-xl text-center space-y-space-md shadow-xl animate-scaleUp">
+<div class="w-14 h-14 mx-auto rounded-full bg-primary-fixed flex items-center justify-center text-primary">
+<span class="material-symbols-outlined text-[36px]" style="font-variation-settings: 'FILL' 1;">check</span>
+</div>
+<div>
+<h4 class="font-headline-page text-headline-page text-on-surface">报名成功！</h4>
+<p class="font-body-default text-body-default text-on-surface-variant mt-1">小记者 林奕辰 的席位已锁定</p>
+</div>
+<div class="bg-surface-container-low rounded-lg p-space-sm text-left font-label-meta text-label-meta space-y-1">
+<div class="flex justify-between">
+<span class="text-outline">入场凭证：</span>
+<span class="font-mono text-on-surface font-semibold">TICKET-20250524-0042</span>
+</div>
+<div class="flex justify-between">
+<span class="text-outline">乘车安排：</span>
+<span class="text-on-surface" id="ticketBusTip">报社大楼统一发车 (1号车)</span>
+</div>
+</div>
+<div class="space-y-space-xs pt-space-xs">
+<button class="w-full h-11 bg-primary text-on-primary rounded-full font-title-card text-title-card active:scale-95 transition-transform flex items-center justify-center space-x-1" onclick="goToPass()" type="button">
+<span>查看凭证与签到码 (J03)</span>
+<span class="material-symbols-outlined text-[18px]">qr_code_2</span>
+</button>
+<button class="w-full h-9 text-outline font-label-caption text-label-caption active:text-on-surface" onclick="hideModal('successModal')" type="button">
+          留在本页
+        </button>
+</div>
+</div>
+</div>
+</div>
+<script>
+  function selectTransport(type) {
+    var optBus = document.getElementById('opt-bus');
+    var optSelf = document.getElementById('opt-self');
+    var valInput = document.getElementById('transportVal');
+    valInput.value = type;
+
+    if (type === 'bus') {
+      optBus.className = 'cursor-pointer p-space-md rounded-xl bg-surface-container-lowest shadow-sm flex flex-col items-center justify-center text-center space-y-1 transition-all ring-2 ring-primary';
+      optSelf.className = 'cursor-pointer p-space-md rounded-xl bg-surface-container-low opacity-80 flex flex-col items-center justify-center text-center space-y-1 transition-all';
+      document.getElementById('ticketBusTip').innerText = '报社大楼统一发车 (1号校巴)';
+    } else {
+      optSelf.className = 'cursor-pointer p-space-md rounded-xl bg-surface-container-lowest shadow-sm flex flex-col items-center justify-center text-center space-y-1 transition-all ring-2 ring-primary';
+      optBus.className = 'cursor-pointer p-space-md rounded-xl bg-surface-container-low opacity-80 flex flex-col items-center justify-center text-center space-y-1 transition-all';
+      document.getElementById('ticketBusTip').innerText = '自驾自行前往（现场大厅签到）';
+    }
+  }
+
+  // Set default initial visual state for transport
+  selectTransport('bus');
+
+  function showModal(id) {
+    var modal = document.getElementById(id);
+    modal.classList.remove('hidden');
+  }
+
+  function hideModal(id) {
+    var modal = document.getElementById(id);
+    modal.classList.add('hidden');
+  }
+
+  function handleSubmit() {
+    var pName = document.getElementById('parentName').value.trim();
+    var pPhone = document.getElementById('parentPhone').value.trim();
+    var agreed = document.getElementById('agreementCheck').checked;
+
+    if (!pName) {
+      alert('请输入监护人/家长姓名');
+      return;
+    }
+    if (!pPhone || pPhone.length < 11) {
+      alert('请填写正确的11位监护人手机号码');
+      return;
+    }
+    if (!agreed) {
+      alert('请先阅读并勾选安全守则须知');
+      return;
+    }
+
+    showModal('successModal');
+  }
+
+  function goToPass() {
+    hideModal('successModal');
+    // Emulate routing in WeChat mini program flow
+    alert('正在跳转至 [J03 报名凭证与签到] 页面...');
+  }
+</script></main><script>window.EP_PAGE="J02";</script><script src="../routes.js"></script></body></html>
